@@ -1,0 +1,24 @@
+.foodList {
+    width: 400px;
+    list-style: none;
+}
+
+.foodListItem {
+    border: 1px solid #dcdcdc;
+    border-bottom: 0;
+    font-size: 18px;
+    padding: 15px 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+}
+.foodListItem:hover {
+    background-color: #1a1a1a;
+}
+.foodListItem:first-child {
+    border-radius: 8px 8px 0 0;
+}
+.foodListItem:last-child {
+    border-radius: 0 0 8px 8px;
+    border-bottom: 1px solid #dcdcdc;
+}
